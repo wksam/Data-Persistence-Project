@@ -26,4 +26,9 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void ChangePlayerName(string playerName)
+    {
+        DataManager.Instance.playerName = playerName;
+    }
 }
